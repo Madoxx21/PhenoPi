@@ -1,0 +1,51 @@
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter runtime files
+*.nbconvert.ipynb
+*.nbconvert/
+*.nbstripout/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode settings (если ты используешь его)
+.vscode/
+
+# Logs
+*.log
+
+# Environment config
+.env
+*.env
+
+# Data files (если не нужны в репо)
+*.csv
+*.tsv
+*.h5
+*.zip
+*.tar.gz
+
+# Model checkpoints (если большие)
+*.ckpt
+*.pth
+*.pt
+
+# Other
+*.bak
+*.swp
+
+
+SIFIBR_data/
+model/
+weights/

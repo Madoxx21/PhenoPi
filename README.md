@@ -1,4 +1,4 @@
-# 🌿 PhenoPi
+  # 🌿 PhenoPi
 
 **PhenoPi** is a prototype computer vision application designed to monitor and analyze plant development using AI-based image analysis. It provides tools and pipelines for plant phenotyping tasks such as leaf segmentation, instance detection, and growth tracking.
 
@@ -19,12 +19,12 @@
 | Notebook                                    | Description                            |
 | ------------------------------------------- | -------------------------------------- |
 | `Phenotyping Pipeline.ipynb`                | End-to-end pipeline for phenotyping    |
-| `Data Preprocessing.ipynb`                  | Image resizing, cleaning, augmentation |
-| `Leaf Instance Segmentation Pipeline.ipynb` | Traditional CV + DL segmentation       |
+| `Data Preprocessing.ipynb`                  | Data splitting for CVPPP2017 dataset   |
+| `Leaf Instance Segmentation Pipeline.ipynb` | Uses different DL segmentation models  |
 | `Leaf Only SAM.ipynb`                       | Uses Segment Anything Model            |
 | `Mask-r-cnn.ipynb`                          | Object instance segmentation           |
 | `Mask2Former.ipynb`                         | State-of-the-art image segmentation    |
-| `Yolo8l_ghost.ipynb`                        | Fast object detection with YOLOv8      |
+| `Yolo8l_ghost.ipynb`                        | Segmentation with YOLOv8      |
 | `Watershed segmentation.ipynb`              | Classical segmentation technique       |
 
 ---
